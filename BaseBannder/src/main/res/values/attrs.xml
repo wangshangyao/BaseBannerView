@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Banner无限轮播属性-->
+    <declare-styleable name="BannerView">
+        <attr name="bannerPageMargin" format="dimension"/>
+        <attr name="bannerPagePercent" format="float"/>
+        <attr name="bannerPageScale" format="float"/>
+        <attr name="bannerPageAlpha" format="float"/>
+        <attr name="bannerScrollDuration" format="integer"/>
+        <attr name="bannerAnimDuration" format="integer"/>
+        <attr name="bannerAnimScroll" format="boolean"/>
+        <attr name="bannerAutoScroll" format="boolean"/>
+    </declare-styleable>
+</resources>

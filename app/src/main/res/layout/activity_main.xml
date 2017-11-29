@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yao.bw.com.myapplication.MainActivity">
+
+    <com.bw.yao.banner.BannerView
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:bannerPageAlpha="1.0"
+        app:bannerPageMargin="2dp"
+        app:bannerPagePercent="0.9"
+        app:bannerPageScale="1"
+        app:bannerAnimScroll="true"
+        app:bannerAutoScroll="true"
+        app:bannerScrollDuration="4000"
+        app:bannerAnimDuration="1500"/>
+
+</LinearLayout>
